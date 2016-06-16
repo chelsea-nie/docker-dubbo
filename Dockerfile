@@ -12,4 +12,4 @@ EXPOSE 20880
 
 WORKDIR /opt/dubbo
 
-CMD ./start.sh
+ENTRYPOINT ["/opt/dubbo/start.sh"]
