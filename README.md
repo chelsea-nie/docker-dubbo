@@ -4,3 +4,5 @@ simple and rude
 docker build -d dubbo .
 ## docker start
 docker run -it -d -p 20880:20880 -v /opt/logs/dubbo.out:/opt/dubbo.out --name dubbo dubbo bash
+
+you need pack one of yourself,it involve start.sh haha……
